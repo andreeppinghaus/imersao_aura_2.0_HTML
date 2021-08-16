@@ -1,64 +1,81 @@
 <!doctype html>
-<html>
+<html lang="pt_BR">
   <head>
-    <title>Minha primeira página html</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <title>Mão na massa</title>
     <style>
-      h1 {
-          color: blue;
-          text-align: center;
-      }
-      h2 {
-          color: #854419 ;
-      }
-      p {
-        font-size: 25px;
-      }
-
-      body {
-        background-color: #f7f5e1;
-      }
-
-      .cor_fundo {
-        background-color: #bfbb9d;
-      }
+    
     </style>
   </head>
   <body>
-    <div> 
-      <img 
+     
+    <div class="container">
+  
+      <div class="row">
+
+        <div class="col-3  ">
+         <img 
       src="https://www.agrosete.com.br/wp-content/uploads/2020/12/Cachorro-com-a-l%C3%ADngua-de-fora-%C3%A9-sede-1.jpg" 
       width="150px"
       >
-      <h1>Minha Empresa </h1>
+        </div>
+
+        <div class="col">
+          <br>
+          <h1>Minha empresa</h1>
+        </div>
+
+      </div>
       <hr>
-    </div>
 
-    <h1> Tutorial HTML</h1>
-    <div class="cor_fundo">
-      <h2> Tags Estruturais</h2>
-      <p> < html > - Tag principal do html </p>
+      <div class="row">
+         <div class="col">
+            <h1>Serviços</h1>
+            <p> Tosa </p>
+            <p> Banho </p>
+<button type="button" class="btn btn-primary">Primary</button>
+        </div>
+        <div class="col">
+            <h1>Produtos</h1>
+            <p> Vendas de shampoo </p>
+            <p> Ração </p>
+            
+        </div>
+      </div>
+      <hr>
       
+      <div class="row">
+         <div class="col">
+            <p> <a href="aula1.html">Nossa empresa</a> </p>
+            <p> <a href="#">Quem somos</a> </p>
+
+        </div>
+        <div class="col">
+            
+            <p><a href="#"> Parceiros </a></p>
+
+            
+        </div>
+      </div>
+
     </div>
-    <div  class="cor_fundo">
-      <h2> Tags Textuais</h2>
-      <p> < h1 > O primeiro comando é  a tag H1, que permite colocar titulos em sua página </p>
-    </div>
-   
-  <h2>Principais Links</h2>
-
-  <p> Site do tutorial html  </p>
-
-    <a  href="https://www.w3schools.com/html/html_intro.asp" 
-        target="_blank"
-     >
-    
-    Visite: https://www.w3schools.com/html/html_intro.asp
-    
-    </a>
 
 
-   
+    <!-- Optional JavaScript; choose one of the two! -->
 
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
   </body>
 </html>
